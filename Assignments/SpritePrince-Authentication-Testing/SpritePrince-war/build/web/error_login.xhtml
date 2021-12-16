@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <style>
+            body{
+               
+            }
+            
+            .container {
+                width: 360px;
+                padding: 20%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+        </style>
+        <title>Login Error</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
+    </h:head>
+    <h:body>
+        <div class="container">
+            <h2>Invalid user name or password.</h2>
+            <p>Please make sure you are entering the correct username and password</p>
+            <h:link value="Return to login page" outcome="login.xhtml">Return to login page</h:link>
+        </div>
+    </h:body>
+</html>
